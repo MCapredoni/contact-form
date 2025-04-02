@@ -22,14 +22,13 @@ export function SubscriberForm() {
             <i className="fas fa-check" />
           </Icon>
         </Form.Control>
-        <Form.Help color="success">This username is available</Form.Help>
       </Form.Field>
 
       <Form.Field>
         <Form.Label>Email</Form.Label>
         <Form.Control>
           <Form.Input
-            color="danger"
+            color="success"
             name="email"
           />
           <Icon align="left" size="small">
