@@ -48,12 +48,12 @@ export function SubscriberForm() {
             <Form.Select
               name="subject"
             >
-              <option value="select-dropdown">Select dropdown</option>
-              <option value="with-options">With options</option>
+              <option value="select-dropdown">Catering</option>
+              <option value="with-options">Complaints</option>
             </Form.Select>
           </Form.Control>
           <Form.Control fullwidth loading>
-            <Form.Input placeholder="With loading state" />
+            <Form.Input placeholder="Type here to tell us more" />
           </Form.Control>
         </Form.Field>
       </Form.Field>
