@@ -48,8 +48,8 @@ export function SubscriberForm() {
             <Form.Select
               name="subject"
             >
-              <option value="select-dropdown">Catering</option>
-              <option value="with-options">Complaints</option>
+              <option value="Catering">Catering</option>
+              <option value="Complaints">Complaints</option>
             </Form.Select>
           </Form.Control>
           <Form.Control fullwidth loading>
@@ -57,8 +57,6 @@ export function SubscriberForm() {
           </Form.Control>
         </Form.Field>
       </Form.Field>
-
-      
 
       <Form.Field kind="group">
         <Form.Control>
