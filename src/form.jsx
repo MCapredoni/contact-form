@@ -49,6 +49,7 @@ export function SubscriberForm() {
               name="subject"
             >
               <option value="Catering">Catering</option>
+              <option value="Special_Catering">Special Orders</option>
               <option value="Complaints">Complaints</option>
             </Form.Select>
           </Form.Control>
