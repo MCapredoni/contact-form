@@ -52,13 +52,20 @@ export function SubscriberForm() {
               <option value="Inquiry">Inquiries</option>
               <option value="Special_Catering">Special Orders</option>
               <option value="Complaints">Complaints</option>
+              <option value="Other">Other</option>
             </Form.Select>
           </Form.Control>
           <Form.Control fullwidth loading>
-            <Form.Input placeholder="Type here to tell us more" />
+            <Form.Input placeholder="If what you are looking for is not found, please type it here." />
           </Form.Control>
         </Form.Field>
       </Form.Field>
+
+      <Form.Field>
+        <Form.Label>Tell us how we can help you</Form.Label>
+        <Form.Textarea/>
+      </Form.Field>
+
 
       <Form.Field kind="group">
         <Form.Control>
